@@ -18,7 +18,7 @@ import com.example.movie_java_server.model.MyKey;
 import com.example.movie_java_server.model.Rating;
 
 @RestController
-@CrossOrigin(origins="https://vast-beyond-22805.herokuapp.com", allowCredentials = "true", allowedHeaders = "*")
+@CrossOrigin(origins="https://sesame-movie.herokuapp.com/", allowCredentials = "true", allowedHeaders = "*")
 public class RatingService {
 	@Autowired
 	RatingRepo ratingRepo;
