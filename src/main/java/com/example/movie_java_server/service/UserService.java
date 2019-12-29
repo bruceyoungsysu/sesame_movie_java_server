@@ -19,7 +19,7 @@ import com.example.movie_java_server.model.User;
 
 
 @RestController
-@CrossOrigin(origins="https://vast-beyond-22805.herokuapp.com")
+@CrossOrigin(origins="https://vast-beyond-22805.herokuapp.com", allowCredentials = "true", allowedHeaders = "*")
 public class UserService {
 	@Autowired
 	UserRepo userRepo;
