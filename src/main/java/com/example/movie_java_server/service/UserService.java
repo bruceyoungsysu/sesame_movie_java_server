@@ -54,7 +54,7 @@ public class UserService {
 	@PostMapping("/api/login")
 	public User login(@RequestBody User user, HttpSession session) {
 		List<User> users = this.findAllUsers();
-		
+		System.out.println(user.getUserName());
 		for(User u:users) {
 			if(u.getPassword()!= null && u.getPassword().equals(user.getPassword()) 
 					&& u.getUserName()!=null && u.getUserName().equals(user.getUserName())) {
