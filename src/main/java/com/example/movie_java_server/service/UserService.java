@@ -58,6 +58,7 @@ public class UserService {
 		for(User u:users) {
 			if(u.getPassword()!= null && u.getPassword().equals(user.getPassword()) 
 					&& u.getUserName()!=null && u.getUserName().equals(user.getUserName())) {
+				System.out.println(u.getUserName());
 				session.setAttribute("curuser", u);
 				return u;
 			}
