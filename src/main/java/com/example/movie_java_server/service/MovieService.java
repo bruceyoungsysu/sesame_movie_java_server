@@ -17,7 +17,7 @@ import com.example.movie_java_server.repositories.MovieRepo;
 import com.example.movie_java_server.model.Movie;
 
 @RestController
-@CrossOrigin(origins="https://sesame-movie.herokuapp.com/", allowCredentials = "true", allowedHeaders = "*")
+@CrossOrigin(origins="https://sesame-movie.herokuapp.com", allowCredentials = "true", allowedHeaders = "*")
 public class MovieService {
 	@Autowired
 	MovieRepo movieRepo;

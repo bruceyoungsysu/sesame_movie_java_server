@@ -17,7 +17,7 @@ import com.example.movie_java_server.model.Like;
 import com.example.movie_java_server.model.User;
 
 @RestController
-@CrossOrigin(origins="https://sesame-movie.herokuapp.com/", allowCredentials = "true", allowedHeaders = "*")
+@CrossOrigin(origins="https://sesame-movie.herokuapp.com", allowCredentials = "true", allowedHeaders = "*")
 public class LikeService {
 	@Autowired
 	LikeRepo LikeRepo;
