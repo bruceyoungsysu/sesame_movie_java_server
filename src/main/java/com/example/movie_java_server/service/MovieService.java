@@ -17,7 +17,7 @@ import com.example.movie_java_server.repositories.MovieRepo;
 import com.example.movie_java_server.model.Movie;
 
 @RestController
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="https://vast-beyond-22805.herokuapp.com/")
 public class MovieService {
 	@Autowired
 	MovieRepo movieRepo;

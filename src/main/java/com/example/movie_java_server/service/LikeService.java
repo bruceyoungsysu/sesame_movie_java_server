@@ -17,7 +17,7 @@ import com.example.movie_java_server.model.Like;
 import com.example.movie_java_server.model.User;
 
 @RestController
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="https://vast-beyond-22805.herokuapp.com/")
 public class LikeService {
 	@Autowired
 	LikeRepo LikeRepo;
