@@ -18,7 +18,7 @@ import com.example.movie_java_server.model.Movie;
 
 
 @RestController
-@CrossOrigin(origins="https://vast-beyond-22805.herokuapp.com")
+@CrossOrigin(origins="https://vast-beyond-22805.herokuapp.com", allowCredentials = "true", allowedHeaders = "*")
 public class AdminService {
 	@Autowired
 	AdminRepo adminRepo;
